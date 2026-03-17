@@ -20,6 +20,6 @@ Then do this:
 
 ### Usage
 
-* Use this app while reading, learning, practicing and more.
+* Use this app while reading, learning, practising and more.
 * Instead of small default clock.
 * Use it when the quick glance at the time is important.
