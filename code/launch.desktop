@@ -2,7 +2,7 @@
 Type=Application
 Name=Clock
 Comment=Simple clock
-Exec=python /home/alexey/IT/IT_Python/IT_kivy/clock/main.py
-Icon=/home/alexey/IT/IT_Python/IT_kivy/clock/logo.jpg
+Exec=python *ADD YOUR PATH HERE*/clock/main.py
+Icon=*ADD YOUR PATH HERE*/clock/logo.jpg
 Categories=Graphics;
 Terminal=false
