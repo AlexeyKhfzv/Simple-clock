@@ -14,3 +14,8 @@ Then add this file to your Desktop.
 ### Installing the necessary
 
 Install Python from [python.org](https://python.org)
+To install Kivy, run:
+```bash
+python -m pip install --upgrade pip
+pip install kivy
+```
