@@ -14,6 +14,12 @@ python -m pip install --upgrade pip
 pip install kivy
 ```
 Then do this:
-* Download folder `code`.  
-* Add full path to `launch.desktop`.
-* I recommend moving updated file to your Desktop  
+1. Download folder `code`.  
+2. Add full path to `launch.desktop`.
+3. I recommend moving updated file to your Desktop  
+
+### Usage
+
+* Use this app while reading, learning, practicing and more.
+* Instead of small default clock.
+* Use it when the quick glance at the time is important.
