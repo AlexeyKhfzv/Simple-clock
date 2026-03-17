@@ -5,13 +5,7 @@
 ---
 ![Example_screenshot](example_screenshot.png)
 
-### How to use it
-
-Firstly, download folder `code`.  
-Secondly, add full path to `launch.desktop`.  
-Then add this file to your Desktop.  
-
-### Installing the necessary
+### Quick Start
 
 Install Python from [python.org](https://python.org)
 To install Kivy, run:
@@ -19,3 +13,8 @@ To install Kivy, run:
 python -m pip install --upgrade pip
 pip install kivy
 ```
+Then do this:
+* Download folder `code`.  
+* Add full path to `launch.desktop`.
+* I recommend moving updated file to your Desktop.  
+
