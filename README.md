@@ -13,9 +13,9 @@ To install Kivy, run:
 python -m pip install --upgrade pip
 pip install kivy
 ```
-Then add full path to `launch.desktop`.
+Add full path to `launch.desktop`.  
 
-I recommend moving updated file to your Desktop  
+I recommend moving updated file to your Desktop.  
 
 ### Usage
 
