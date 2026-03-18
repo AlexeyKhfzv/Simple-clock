@@ -1,26 +1,31 @@
+import os
 from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
 from kivy.clock import Clock
 from kivy.core.window import Window
 from datetime import datetime as dt
+
 Window.clearcolor = (1,1,1,1)
 Window.size = (210, 80)
 
 class ClockExample(App):
     def build(self):
+        h = dt.now().hour
         self.labelh = Label(
-            text=str(dt.now().hour),
+            text=f"0{h}" if h < 10 else str(h),
             color = (0,0,0,1),
             font_size = 50
         )
+        m = dt.now().minute
         self.labelm = Label(
-            text=str(dt.now().minute),
+            text=f"0{m}" if m < 10 else str(m),
             color = (0,0,0,1),
             font_size = 50
         )
+        s = dt.now().second
         self.labels = Label(
-            text=str(dt.now().second),
+            text=f"0{s}" if s < 10 else str(s),
             color = (80,80,80,1),
             font_size = 50
         )
@@ -36,9 +41,16 @@ class ClockExample(App):
         return box
 
     def update_label(self, dtime):
-        self.labelh.text = str(dt.now().hour)
-        self.labelm.text = str(dt.now().minute)
-        self.labels.text = str(dt.now().second)
+        h = dt.now().hour
+        self.labelh.text = f"0{h}" if h < 10 else str(h)
+        m = dt.now().minute
+        self.labelm.text = f"0{m}" if m < 10 else str(m)
+        s = dt.now().second
+        self.labels.text = f"0{s}" if s < 10 else str(s)
+    
+    def on_start(self):
+        os.system("wmctrl -r :ACTIVE: -b add,above")
+
 
 clock = ClockExample()
 clock.title = "Clock"
