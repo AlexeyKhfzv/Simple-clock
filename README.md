@@ -3,7 +3,7 @@
 </p>
 
 ---
-![Example_screenshot](example_screenshot.png)
+![Example_screenshot](example_screenshot1.png)
 
 ### Quick Start
 
