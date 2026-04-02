@@ -5,7 +5,7 @@
 ---
 ![Example_screenshot](example_screenshot1.png)
 
-### Quick Start
+## Quick Start
 
 Install Python from [python.org](https://python.org).  
 To install Kivy, run:
@@ -17,7 +17,7 @@ Insert full path to `launch.desktop` instead of `*ADD YOUR PATH HERE*`.
 
 I recommend moving updated file to your Desktop.  
 
-### Usage
+## Usage
 
 * Use this app while reading, learning, practising and more.
 * Instead of small default clock.
